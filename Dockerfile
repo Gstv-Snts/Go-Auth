@@ -3,8 +3,7 @@ FROM golang:latest
 RUN mkdir /build
 WORKDIR /build
 
-RUN export GO111MODULE=off
-RUN go install github.com/Gstv-Snts/Go-Auth@latest
+RUN export GO111MODULE=on
 RUN cd /build && git clone https://github.com/Gstv-Snts/Go-Auth.git
 
 RUN cd /build/Go-Auth && go build

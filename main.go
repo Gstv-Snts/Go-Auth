@@ -1,7 +1,7 @@
 package main
 
 import (
-	controllers "api/controllers"
+	controllers "github.com/Gstv-Snts/Go-Auth/controllers"
 
 	"github.com/gin-gonic/gin"
 )

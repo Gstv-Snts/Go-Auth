@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	database "api/database"
+	database "github.com/Gstv-Snts/Go-Auth/database"
 	"database/sql"
 	"fmt"
 	"net/http"
