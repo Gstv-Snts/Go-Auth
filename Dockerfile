@@ -6,7 +6,7 @@ WORKDIR /build
 RUN export GO111MODULE=off
 RUN cd /build && git clone https://github.com/Gstv-Snts/Go-Auth.git
 
-RUN cd /build/Go-Auth && go build
+RUN cd /build/Go-Auth && go build main.go
 
 EXPOSE 8080
 
